@@ -40,6 +40,7 @@ $indicesServer = array('PHP_SELF',
 'PATH_INFO',
 'ORIG_PATH_INFO') ;
 
+print "<h1>php version: " . phpversion() . "</h1>\n";
 echo '<table cellpadding="10">' ;
 foreach ($indicesServer as $arg) {
     if (isset($_SERVER[$arg])) {
