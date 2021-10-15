@@ -14,5 +14,5 @@ if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
     $ip = $_SERVER['REMOTE_ADDR'];
 }
 print "<p>Client IP=" . $ip . "</p>\n";
-
+print "E o Gonçalo validou!!!!";
 ?>
