@@ -1,5 +1,5 @@
 <?php
-print "<h1>Hello, World!</h1>"
+print "<h1>Hello, World!</h1>";
 print "<p>php version is " . PHP_VERSION . "</p>\n";
 $svrip = $_SERVER['REMOTE_ADDR'];
 print "<p>Server IP=" . $srvip . "</p>\n";
